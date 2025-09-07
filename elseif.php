@@ -1,5 +1,5 @@
 <?php
-    $nilai = 75;
+    $nilai = 0.20;
 
     if ($nilai >= 90 && $nilai <= 100) {
         echo "Nilai A";
@@ -9,6 +9,8 @@
         echo "Nilai C";
     } elseif ($nilai >= 60 && $nilai <= 69) {
         echo "Nilai D";
+    } elseif ($nilai >= 0 && $nilai <= 59) {
+        echo "Nilai E";
     } else {
         echo "Nilai Anomali";
     }
